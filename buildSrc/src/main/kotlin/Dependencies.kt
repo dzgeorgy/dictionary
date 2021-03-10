@@ -17,6 +17,7 @@ object Dependencies {
         internal const val junit = "4.13.2"
         internal const val testJunit = "1.1.2"
         internal const val espresso = "3.3.0"
+        internal const val coroutines = "1.4.3"
     }
 
     object Plugins {
@@ -33,6 +34,8 @@ object Dependencies {
         const val activityCompose = "androidx.activity:activity-compose:${Versions.activity}"
         const val lifecycleRuntime =
             "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifecycle}"
+        const val coroutines =
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
     }
 
     object TestLibraries {
