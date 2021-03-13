@@ -8,21 +8,15 @@ object Dependencies {
         const val versionName = "0.1.0"
         const val compose = "1.0.0-beta02"
         const val buildTools = "30.0.3"
-        internal const val appcompat = "1.3.0-beta01"
-        internal const val agp = "7.0.0-alpha09"
-        internal const val kotlin = "1.4.31"
-        internal const val core = "1.5.0-beta03"
+        internal const val appcompat = "1.3.0-beta01" k
+                internal const
+        val core = "1.5.0-beta03"
         internal const val lifecycle = "2.3.0"
         internal const val activity = "1.3.0-alpha04"
         internal const val junit = "4.13.2"
         internal const val testJunit = "1.1.2"
         internal const val coroutines = "1.4.3"
         internal const val paging = "3.0.0-beta01"
-    }
-
-    object Plugins {
-        const val agp = "com.android.tools.build:gradle:${Versions.agp}"
-        const val kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
     }
 
     object Libraries {

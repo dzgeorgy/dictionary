@@ -11,17 +11,21 @@ android {
         applicationId = "ru.dzgeorgy.dictionary"
         minSdkVersion(Dependencies.Versions.minSdk)
         targetSdkVersion(Dependencies.Versions.targetSdk)
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = Dependencies.Versions.versionCode
+        versionName = Dependencies.Versions.versionName
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         getByName("release") {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro")
+        }
+        getByName("debug") {
+            isMinifyEnabled = false
         }
     }
     compileOptions {
