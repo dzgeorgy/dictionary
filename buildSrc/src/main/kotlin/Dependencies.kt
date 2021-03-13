@@ -8,9 +8,8 @@ object Dependencies {
         const val versionName = "0.1.0"
         const val compose = "1.0.0-beta02"
         const val buildTools = "30.0.3"
-        internal const val appcompat = "1.3.0-beta01" k
-                internal const
-        val core = "1.5.0-beta03"
+        internal const val appcompat = "1.3.0-beta01"
+        internal const val core = "1.5.0-beta03"
         internal const val lifecycle = "2.3.0"
         internal const val activity = "1.3.0-alpha04"
         internal const val junit = "4.13.2"
