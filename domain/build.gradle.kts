@@ -10,4 +10,5 @@ java {
 
 dependencies {
     implementation(Dependencies.Libraries.coroutines)
+    implementation(Dependencies.Libraries.pagingCommon)
 }
